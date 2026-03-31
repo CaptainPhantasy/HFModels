@@ -1,0 +1,326 @@
+{
+  "model": "mlx-community/Qwen3-8B-4bit",
+  "load_time": 0.7535867691040039,
+  "tests": [
+    {
+      "id": "PR-01",
+      "category": "Pattern Recognition",
+      "name": "Change Impact Analyzer Explanation",
+      "tokens": 400,
+      "time": 18.883718252182007,
+      "tps": 21.18226901387814,
+      "criteria_met": 0,
+      "criteria_total": 4,
+      "criteria_pct": 0.0,
+      "response_preview": "What are the possible outcomes? What are the possible actions? What are the possible exceptions? What are the possible side effects? What are the possible dependencies? What are the possible constrain"
+    },
+    {
+      "id": "PR-02",
+      "category": "Pattern Recognition",
+      "name": "Error Resolution Engine",
+      "tokens": 400,
+      "time": 18.8241970539093,
+      "tps": 21.249246321342046,
+      "criteria_met": 0,
+      "criteria_total": 4,
+      "criteria_pct": 0.0,
+      "response_preview": "What are the key components of this pattern? What are the benefits of using this pattern?\n\nThe Error Resolution Engine pattern is a design pattern used in software development to handle errors and exc"
+    },
+    {
+      "id": "PR-03",
+      "category": "Pattern Recognition",
+      "name": "Pre-Edit Intelligence",
+      "tokens": 400,
+      "time": 18.823546171188354,
+      "tps": 21.24998108019874,
+      "criteria_met": 0,
+      "criteria_total": 4,
+      "criteria_pct": 0.0,
+      "response_preview": "How does it help in identifying potential issues in the codebase? Provide an example of how it can prevent a regression.\nPre-Edit Intelligence refers to the process of analyzing and understanding the "
+    },
+    {
+      "id": "CG-01",
+      "category": "Code Generation",
+      "name": "Tarjan's Algorithm",
+      "tokens": 400,
+      "time": 18.830070972442627,
+      "tps": 21.24261775674615,
+      "criteria_met": 2,
+      "criteria_total": 5,
+      "criteria_pct": 40.0,
+      "response_preview": "Also, provide an example usage with a sample graph. Make sure the function is efficient and handles edge cases. Here's a sample graph: nodes are 0-5, edges are [(0,1), (1,2), (2,0), (3,4), (4,5), (5,3"
+    },
+    {
+      "id": "CG-02",
+      "category": "Code Generation",
+      "name": "Dependency Graph Builder",
+      "tokens": 400,
+      "time": 18.901644706726074,
+      "tps": 21.162179598988104,
+      "criteria_met": 3,
+      "criteria_total": 4,
+      "criteria_pct": 75.0,
+      "response_preview": "The function should take a list of import statements, each of which is a string in the format \"import module [as alias]\". For example, \"import math as m\" would be an import statement. The function sho"
+    },
+    {
+      "id": "CG-03",
+      "category": "Code Generation",
+      "name": "Error Parser",
+      "tokens": 400,
+      "time": 18.954060077667236,
+      "tps": 21.103657916084323,
+      "criteria_met": 3,
+      "criteria_total": 4,
+      "criteria_pct": 75.0,
+      "response_preview": "The class should have a method to process a string of error output. The output should be a list of dictionaries with keys 'file', 'line', 'message'. Also, the class should have a method to print the p"
+    },
+    {
+      "id": "RF-01",
+      "category": "Refactoring",
+      "name": "Safe Rename Analysis",
+      "tokens": 400,
+      "time": 19.359798192977905,
+      "tps": 20.661372397212595,
+      "criteria_met": 3,
+      "criteria_total": 5,
+      "criteria_pct": 60.0,
+      "response_preview": "\n4. What would be the impact of this change on the codebase?\n\nAnswer each question in a concise manner, using bullet points. Also, provide a summary of the overall plan.\nAnswer:\n1. Files to analyze fi"
+    },
+    {
+      "id": "RF-02",
+      "category": "Refactoring",
+      "name": "Hub File Protection",
+      "tokens": 400,
+      "time": 19.317956924438477,
+      "tps": 20.70612340448766,
+      "criteria_met": 3,
+      "criteria_total": 4,
+      "criteria_pct": 75.0,
+      "response_preview": "\n4. What checkpoints should you create after editing?\n5. How do you test the changes?\n6. What are the risks of not following this pattern?\n7. What are the risks of not following this pattern in this c"
+    },
+    {
+      "id": "ED-01",
+      "category": "Error Diagnosis",
+      "name": "TypeScript Error Analysis",
+      "tokens": 400,
+      "time": 19.364654064178467,
+      "tps": 20.656191361555816,
+      "criteria_met": 1,
+      "criteria_total": 4,
+      "criteria_pct": 25.0,
+      "response_preview": "Let's walk through the process step by step.\n\nFirst, understand the error message. The error says that a value of type 'string | undefined' cannot be assigned to a variable of type 'string'. This typi"
+    },
+    {
+      "id": "ED-02",
+      "category": "Error Diagnosis",
+      "name": "Circular Dependency Detection",
+      "tokens": 400,
+      "time": 19.625219106674194,
+      "tps": 20.381938047456856,
+      "criteria_met": 0,
+      "criteria_total": 5,
+      "criteria_pct": 0.0,
+      "response_preview": "\n\nI need to implement this in Python. Please provide a code example. \n\nI need to to implement this in Python. Please provide a code example. \n\nI need to implement this in Python. Please provide a code"
+    },
+    {
+      "id": "QG-01",
+      "category": "Quality Gates",
+      "name": "Completion Fortress",
+      "tokens": 400,
+      "time": 19.692087173461914,
+      "tps": 20.31272746644454,
+      "criteria_met": 1,
+      "criteria_total": 5,
+      "criteria_pct": 20.0,
+      "response_preview": "Please list them in order.\nOkay, so I need to figure out the five quality gates that must be passed before marking a task as complete according to Floyd's Completion Fortress pattern. Hmm, first, I sh"
+    },
+    {
+      "id": "QG-02",
+      "category": "Quality Gates",
+      "name": "Schema Change Safety",
+      "tokens": 400,
+      "time": 20.638980865478516,
+      "tps": 19.380801920750557,
+      "criteria_met": 0,
+      "criteria_total": 4,
+      "criteria_pct": 0.0,
+      "response_preview": "Please explain each layer in terms of what they do, and what they validate. Also, explain what the \"Floyd's Schema Fortress\" pattern is, and how the four layers of validation fit into it.\n\nFloyd's Sch"
+    }
+  ],
+  "started_at": "2026-03-31T09:54:50.501697",
+  "completed_at": "2026-03-31T09:58:41.730823",
+  "total_time": 231.21593356132507,
+  "total_tokens": 4800,
+  "avg_tps": 20.75981497497837,
+  "by_category": {
+    "Pattern Recognition": {
+      "tests": [
+        {
+          "id": "PR-01",
+          "category": "Pattern Recognition",
+          "name": "Change Impact Analyzer Explanation",
+          "tokens": 400,
+          "time": 18.883718252182007,
+          "tps": 21.18226901387814,
+          "criteria_met": 0,
+          "criteria_total": 4,
+          "criteria_pct": 0.0,
+          "response_preview": "What are the possible outcomes? What are the possible actions? What are the possible exceptions? What are the possible side effects? What are the possible dependencies? What are the possible constrain"
+        },
+        {
+          "id": "PR-02",
+          "category": "Pattern Recognition",
+          "name": "Error Resolution Engine",
+          "tokens": 400,
+          "time": 18.8241970539093,
+          "tps": 21.249246321342046,
+          "criteria_met": 0,
+          "criteria_total": 4,
+          "criteria_pct": 0.0,
+          "response_preview": "What are the key components of this pattern? What are the benefits of using this pattern?\n\nThe Error Resolution Engine pattern is a design pattern used in software development to handle errors and exc"
+        },
+        {
+          "id": "PR-03",
+          "category": "Pattern Recognition",
+          "name": "Pre-Edit Intelligence",
+          "tokens": 400,
+          "time": 18.823546171188354,
+          "tps": 21.24998108019874,
+          "criteria_met": 0,
+          "criteria_total": 4,
+          "criteria_pct": 0.0,
+          "response_preview": "How does it help in identifying potential issues in the codebase? Provide an example of how it can prevent a regression.\nPre-Edit Intelligence refers to the process of analyzing and understanding the "
+        }
+      ],
+      "avg_criteria_pct": 0.0
+    },
+    "Code Generation": {
+      "tests": [
+        {
+          "id": "CG-01",
+          "category": "Code Generation",
+          "name": "Tarjan's Algorithm",
+          "tokens": 400,
+          "time": 18.830070972442627,
+          "tps": 21.24261775674615,
+          "criteria_met": 2,
+          "criteria_total": 5,
+          "criteria_pct": 40.0,
+          "response_preview": "Also, provide an example usage with a sample graph. Make sure the function is efficient and handles edge cases. Here's a sample graph: nodes are 0-5, edges are [(0,1), (1,2), (2,0), (3,4), (4,5), (5,3"
+        },
+        {
+          "id": "CG-02",
+          "category": "Code Generation",
+          "name": "Dependency Graph Builder",
+          "tokens": 400,
+          "time": 18.901644706726074,
+          "tps": 21.162179598988104,
+          "criteria_met": 3,
+          "criteria_total": 4,
+          "criteria_pct": 75.0,
+          "response_preview": "The function should take a list of import statements, each of which is a string in the format \"import module [as alias]\". For example, \"import math as m\" would be an import statement. The function sho"
+        },
+        {
+          "id": "CG-03",
+          "category": "Code Generation",
+          "name": "Error Parser",
+          "tokens": 400,
+          "time": 18.954060077667236,
+          "tps": 21.103657916084323,
+          "criteria_met": 3,
+          "criteria_total": 4,
+          "criteria_pct": 75.0,
+          "response_preview": "The class should have a method to process a string of error output. The output should be a list of dictionaries with keys 'file', 'line', 'message'. Also, the class should have a method to print the p"
+        }
+      ],
+      "avg_criteria_pct": 63.333333333333336
+    },
+    "Refactoring": {
+      "tests": [
+        {
+          "id": "RF-01",
+          "category": "Refactoring",
+          "name": "Safe Rename Analysis",
+          "tokens": 400,
+          "time": 19.359798192977905,
+          "tps": 20.661372397212595,
+          "criteria_met": 3,
+          "criteria_total": 5,
+          "criteria_pct": 60.0,
+          "response_preview": "\n4. What would be the impact of this change on the codebase?\n\nAnswer each question in a concise manner, using bullet points. Also, provide a summary of the overall plan.\nAnswer:\n1. Files to analyze fi"
+        },
+        {
+          "id": "RF-02",
+          "category": "Refactoring",
+          "name": "Hub File Protection",
+          "tokens": 400,
+          "time": 19.317956924438477,
+          "tps": 20.70612340448766,
+          "criteria_met": 3,
+          "criteria_total": 4,
+          "criteria_pct": 75.0,
+          "response_preview": "\n4. What checkpoints should you create after editing?\n5. How do you test the changes?\n6. What are the risks of not following this pattern?\n7. What are the risks of not following this pattern in this c"
+        }
+      ],
+      "avg_criteria_pct": 67.5
+    },
+    "Error Diagnosis": {
+      "tests": [
+        {
+          "id": "ED-01",
+          "category": "Error Diagnosis",
+          "name": "TypeScript Error Analysis",
+          "tokens": 400,
+          "time": 19.364654064178467,
+          "tps": 20.656191361555816,
+          "criteria_met": 1,
+          "criteria_total": 4,
+          "criteria_pct": 25.0,
+          "response_preview": "Let's walk through the process step by step.\n\nFirst, understand the error message. The error says that a value of type 'string | undefined' cannot be assigned to a variable of type 'string'. This typi"
+        },
+        {
+          "id": "ED-02",
+          "category": "Error Diagnosis",
+          "name": "Circular Dependency Detection",
+          "tokens": 400,
+          "time": 19.625219106674194,
+          "tps": 20.381938047456856,
+          "criteria_met": 0,
+          "criteria_total": 5,
+          "criteria_pct": 0.0,
+          "response_preview": "\n\nI need to implement this in Python. Please provide a code example. \n\nI need to to implement this in Python. Please provide a code example. \n\nI need to implement this in Python. Please provide a code"
+        }
+      ],
+      "avg_criteria_pct": 12.5
+    },
+    "Quality Gates": {
+      "tests": [
+        {
+          "id": "QG-01",
+          "category": "Quality Gates",
+          "name": "Completion Fortress",
+          "tokens": 400,
+          "time": 19.692087173461914,
+          "tps": 20.31272746644454,
+          "criteria_met": 1,
+          "criteria_total": 5,
+          "criteria_pct": 20.0,
+          "response_preview": "Please list them in order.\nOkay, so I need to figure out the five quality gates that must be passed before marking a task as complete according to Floyd's Completion Fortress pattern. Hmm, first, I sh"
+        },
+        {
+          "id": "QG-02",
+          "category": "Quality Gates",
+          "name": "Schema Change Safety",
+          "tokens": 400,
+          "time": 20.638980865478516,
+          "tps": 19.380801920750557,
+          "criteria_met": 0,
+          "criteria_total": 4,
+          "criteria_pct": 0.0,
+          "response_preview": "Please explain each layer in terms of what they do, and what they validate. Also, explain what the \"Floyd's Schema Fortress\" pattern is, and how the four layers of validation fit into it.\n\nFloyd's Sch"
+        }
+      ],
+      "avg_criteria_pct": 10.0
+    }
+  }
+}
